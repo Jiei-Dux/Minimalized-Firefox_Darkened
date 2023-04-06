@@ -34,23 +34,3 @@
     .tab-close-button { display: none !important }
 
 /* ========== ========== ========== ========== ========== ========== */
-/*
-/*
-/*
-/*
-/* ========== FOR FIREFOX DEVELOPER EDITION ONLY ==========  */
-
-    /* DevTools */
-    .devtools-horizontal-splitter { 
-        margin-top: 7px !important;
-        margin-bottom:-12px !important;
-        opacity: 0;
-    }
-
-    .devtools-side-splitter { opacity: 0; }
-    .devtools-toolbox-side-iframe { 
-        margin-top: -10px; 
-        border-radius: 10px;
-    }
-
-/* ========== ========== ========== ========== ========== ========== */
