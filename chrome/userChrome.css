@@ -1,0 +1,56 @@
+/* ========== REMOVAL SECTION ========== */
+
+    /*  Removes the reload and/or stop button  */
+    #reload-button, 
+    #stop-button { display:none !important }
+
+    /* Removes the Back, Forward, Home, and other stupid buttons */
+    #back-button, 
+    #forward-button, 
+    #firefox-view-button, 
+    #save-to-pocket-button, 
+    #tracking-protection-icon-container, 
+    .titlebar-spacer[type="pre-tabs"], 
+    .titlebar-spacer[type="post-tabs"] {
+        display: none
+    }
+    #tabbrowser-tabs { border-inline-start-width: 0!important }
+
+    /* Removes Titlebar Buttons - Minimize, Maximize, Restore, Close */
+    .titlebar-min { display: none !important }
+    .titlebar-max { display: none !important }
+    .titlebar-close { display: none !important }
+    .titlebar-restore { display: none !important }
+
+    /*  Removes the "List All Tabs" Button  */
+    #alltabs-button { display: none !important }
+
+    /* Removes space after pinned tabs */
+    #tabbrowser-tabs[haspinnedtabs]:not([positionpinnedtabs])>
+    #tabbrowser-arrowscrollbox>
+    .tabbrowser-tab[first-visible-unpinned-tab] { margin-inline-start: 0!important }
+
+    /* Removes the x-button from the tabs */
+    .tab-close-button { display: none !important }
+
+/* ========== ========== ========== ========== ========== ========== */
+/*
+/*
+/*
+/*
+/* ========== FOR FIREFOX DEVELOPER EDITION ONLY ==========  */
+
+    /* DevTools */
+    .devtools-horizontal-splitter { 
+        margin-top: 7px !important;
+        margin-bottom:-12px !important;
+        opacity: 0;
+    }
+
+    .devtools-side-splitter { opacity: 0; }
+    .devtools-toolbox-side-iframe { 
+        margin-top: -10px; 
+        border-radius: 10px;
+    }
+
+/* ========== ========== ========== ========== ========== ========== */
